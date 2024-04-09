@@ -1,0 +1,119 @@
+/* Signup.css */
+
+/* Container styles */
+.signup-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  /* Image container styles */
+  .signup-image-container {
+    margin-top: 20px;
+    
+  }
+  
+  /* Logo styles */
+  .signup-image-container img {
+    width: 250px; /* Adjust size as needed */
+  }
+  
+  /* Content container styles */
+  .signup-content-container {
+    margin-top: 20px;
+    background-color: #007bff;
+  }
+  
+  /* Form styles */
+  .signup-form {
+    width: 550px; /* Adjust width as needed */
+    padding: 20px;
+    border: 1px solid #3a38b9;
+    border-radius: 5px;
+  }
+  
+  /* Header styles */
+  .signup-header {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+  }
+  
+  /* Text styles */
+  .signup-text {
+    color: #333;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  h4{
+    color: #333;
+  }
+  /* Input container styles */
+  .signup-inputs {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Input field styles */
+  .signup-input {
+    margin-bottom: 10px;
+  }
+  
+  .signup-input-field {
+    width: 85%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    background-position: 10px center;
+    background-repeat: no-repeat;
+    background-size: 20px;
+    background-position: 30px center;
+    padding-left: 60px;
+    padding-top: 7px;
+  }
+  
+  /* Submit button styles */
+  .signup-button {
+    width: 100%;
+    padding: 10px;
+    background-color: #f6f6f9;
+    color: #351cb2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .signup-button:hover {
+    background-color: #0056b3;
+    color: #ccc;
+  }
+  
+  /* Login text styles */
+  .signup-login-text {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .signup-login-link {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-login-link:hover {
+    text-decoration: underline;
+  }
+  
+  /* Back link styles */
+  .signup-back-link {
+    margin-top: 20px;
+    text-align: center;
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .signup-back-link:hover {
+    text-decoration: underline;
+  }
+  

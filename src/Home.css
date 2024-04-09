@@ -1,0 +1,114 @@
+/* Home1.css */
+
+.container {
+    width: 100%;
+    margin: 0 auto;
+   align-items: center;
+   justify-content: center;
+   display: flex;
+  }
+  img{
+    width: 250px;
+    align-items: center;
+    border-radius: 20px;
+    animation: slideIn 1.5s ease;
+  }
+  @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  header {
+    background-color: #f4f4f4;
+    padding: 20px 0;
+    height: 100%;
+    display: flex;
+    
+    
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-size: contain; /* Make sure the background image fits within the header */
+    background-position: center; /* Center the background image */
+    transition: background-color 0.3s ease; /* Add transition for background-color */
+  }
+  
+ .h1-home {
+    text-align: center; /* Center the text */
+    font-size: 24px; /* Adjust font size */
+    transition: font-size 0.3s ease; /* Add transition for font-size */
+  }
+  
+  .container2 {
+    height: 300px;
+    animation: slideIn1 1.5s ease;
+    font-size: large;
+    font-style:unset;
+  }
+  @keyframes slideIn1 {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .hero {
+    background-color: #007bff;
+    color: #fff;
+    padding: 50px 0;
+    text-align: center;
+  }
+  
+  .hero h2 {
+    margin-top: 0;
+    font-size: 32px; /* Adjust font size */
+    transition: font-size 0.3s ease; /* Add transition for font-size */
+  }
+  
+  .hero p {
+    margin-bottom: 20px;
+    font-size: 18px; /* Adjust font size */
+    transition: font-size 0.3s ease; /* Add transition for font-size */
+  }
+  
+  .btn {
+    display: inline-block;
+    background-color: #fff;
+    color: #007bff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 16px; /* Adjust font size */
+    transition: background-color 0.3s ease, color 0.3s ease; /* Add transition for background-color and color */
+  }
+  
+  .btn:hover {
+    background-color: #007bff; /* Change background color on hover */
+    color: #fff; /* Change text color on hover */
+  }
+  
+  footer {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 14px; /* Adjust font size */
+    color: #f4f4f4;
+  }
+  
