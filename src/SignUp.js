@@ -26,11 +26,12 @@ const Signup = () => {
     // Example: axios.post('/api/signup', { fullName, userName, userEmail, userPassword })
     //   .then(response => {
     //     console.log(response.data);
-    //     navigate('/login'); // Redirect to login page after successful signup
+    //      // Redirect to login page after successful signup
     //   })
     //   .catch(error => {
     //     console.error('Error during signup:', error);
     //   });
+    navigate('/login');
   };
   
   return (

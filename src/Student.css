@@ -1,0 +1,90 @@
+
+.container4{
+    width:720px;
+    background-color:  #007bff;
+    color:black ;
+    overflow-y:scroll;
+    max-height: 750px;
+    align-items: center;
+    margin-left: 450px;
+    
+}
+
+.container4 h1 {
+    font-size: 36px;
+    text-align: center;
+}
+.container4 h6{
+    text-align: left;
+    font-size: medium;
+}
+.search1{
+    text-align: left;
+    padding-bottom: 10px;
+}
+.container4.scrollbox1 .busDetails1 {
+    position:relative;
+    width: 100%;
+    max-height: 10px;
+    margin: 30px 0;
+  
+    background-color: blueviolet;
+}
+
+/* styles.css */
+
+.container4 {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  /*input[type="text"], button {
+    padding: 10px;
+    margin: 10px;
+    font-size: 16px;
+  }*/
+  
+  button {
+    background-color: #007bff;
+    color:blue;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .scroll-box1 {
+    max-height: 100px; /* Set the desired height for the scroll box */
+    overflow-y:scroll; /* Enable scrolling */
+  }
+  
+  .busDetails1 {
+    border: 1px solid #d8bdbd;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #fefefe; /* Set background color */
+    border-radius: 5px;
+     /* Add rounded corners */
+     overflow-y: scroll;
+     max-height: 80px;
+     align-items: center;
+     
+  }
+  
+  .busDetails1 p {
+    margin: 5px 0;
+    overflow: auto;
+    max-height: 25px;
+    align-items: center;
+    text-align: left;
+    font-size: 16px; /* Example font size */
+    color: #333; /* Example text color */
+    font-weight: bold; /* Example font weight */
+    background-color: #f0f0f0; /* Example background color */
+    padding: 10px; /* Example padding */
+    border-radius: 5px; /* Example border radius */
+}

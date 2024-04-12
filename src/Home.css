@@ -6,6 +6,7 @@
    align-items: center;
    justify-content: center;
    display: flex;
+   border-radius: 15px;
   }
   img{
     width: 250px;
@@ -98,7 +99,9 @@
     font-size: 16px; /* Adjust font size */
     transition: background-color 0.3s ease, color 0.3s ease; /* Add transition for background-color and color */
   }
-  
+  .admin-link {
+    margin-right: 20px; /* Adjust margin to create space between the link and the right edge */
+  }
   .btn:hover {
     background-color: #007bff; /* Change background color on hover */
     color: #fff; /* Change text color on hover */
